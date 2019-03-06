@@ -215,3 +215,36 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+@media (max-width: 640px){
+  #main-container{ 
+    position: fixed;
+    margin: auto;
+
+  }
+
+  .work{
+    float: none;
+  }
+
+
+  .header { 
+    position: static;
+    font-size: 30px; 
+  }
+
+  body {background-color: blue}
+
+
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+
+
+@media screen and (max-width: 980px){
+
+}
