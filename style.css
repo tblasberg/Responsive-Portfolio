@@ -218,33 +218,110 @@ body {
 
 @media (max-width: 640px){
   #main-container{ 
-    position: fixed;
+    position: static;
     margin: auto;
+  }
 
+  #masthead {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    position: static;
+  }
+
+  .links{
+    float: inline-end;
+    padding-right: 30px;   
+  }
+
+  #logo{
+    /* font-size: 30px;
+    width: 40%;  */
+    float: inline-start;
+    clear: both;
+    margin: auto;
   }
 
   .work{
     float: none;
+    clear: both;
   }
-
 
   .header { 
     position: static;
-    font-size: 30px; 
   }
-
-  body {background-color: blue}
-
-
-
 }
 
 @media screen and (max-width: 768px){
+  #main-container{ 
+    position: static;
+    margin: auto;
+  }
 
+  #masthead {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    position: static;
+  }
+
+  .links{
+    float: inline-end;
+    padding-right: 30px;   
+  }
+
+  #logo{
+    /* font-size: 30px;
+    width: 40%;  */
+    float: inline-start;
+    clear: both;
+    margin: auto;
+  }
+
+  .work{
+    float: left;
+    /* clear: both; */
+  }
+
+  .header { 
+    position: static;
+  }
 }
 
 
 
 @media screen and (max-width: 980px){
+  #main-container{ 
+    position: static;
+    margin: auto;
+  }
 
+  #masthead {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    position: static;
+  }
+
+  .links{
+    float: inline-end;
+    padding-right: 30px;   
+  }
+
+  #logo{
+    /* font-size: 30px;
+    width: 40%;  */
+    float: inline-start;
+    clear: both;
+    margin: auto;
+  }
+
+  .work{
+    float: left;
+    /* clear: both; */
+  }
+
+  .header { 
+    position: static;
+  }
 }
